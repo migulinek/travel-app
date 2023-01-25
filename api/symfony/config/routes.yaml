@@ -1,0 +1,19 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+index:
+    path: /
+    controller: 'App\Controller\DefaultController::index'
+rooms:
+    path: /rooms
+    controller: 'App\Controller\RoomsController::index'
+    methods: GET
+room:
+    path: /room/{id}
+    controller: 'App\Controller\CheckedRoomController::index'
+    methods: GET
+default:
+    path: \*
+    controller: 'App\Controller\DefaultController::index'

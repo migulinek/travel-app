@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  php:
+    build: './api/docker/php'
+    ports: ['9000:9000']
+    volumes: ['./api/symfony/:/var/www/symfony:cached']
+  nginx:
+    build: './api/docker/nginx'
+    ports: ['8080:80']
+    volumes: ['./api/symfony/:/var/www/symfony:cached']
