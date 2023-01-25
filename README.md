@@ -14,7 +14,7 @@ run docker and connect to container:
 
 ### Ready up
 
-click [localhost](http://localhost:8080/) in your browser
+click [http://localhost:8080/](http://localhost:8080/) in your browser
 
 ### Huge respect for
 
