@@ -10,7 +10,7 @@ use App\RoomsFactory\RoomFactory;
 
 class RoomsController extends AbstractController
 {
-    #[Route('/rooms')]
+    #[Route('/api/rooms')]
     public function index(): Response
     {
         return $this->json(

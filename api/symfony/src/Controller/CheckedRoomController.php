@@ -10,7 +10,7 @@ use App\RoomsFactory\CheckedRoomFactory;
 class CheckedRoomController extends AbstractController
 {
 
-    #[Route('/room/{id}')]
+    #[Route('/api/room/{id}')]
     public function index(int $id): Response
     {
         $checkedRoom = $this->getCheckedFakeRoom($id);

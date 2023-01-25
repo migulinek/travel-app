@@ -1,0 +1,27 @@
+$badge-border-radius: 0;
+$custom-border-radius: 12px;
+$card-border-radius: $custom-border-radius;
+
+@import '~bootstrap/scss/bootstrap';
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+.btn-wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  .light {
+    cursor: no-drop !important;
+  }
+}
+.btn-link {
+  text-decoration: none;
+  color: black;
+}
+.btn-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}

@@ -7,11 +7,11 @@ index:
     path: /
     controller: 'App\Controller\DefaultController::index'
 rooms:
-    path: /rooms
+    path: /api/rooms
     controller: 'App\Controller\RoomsController::index'
     methods: GET
 room:
-    path: /room/{id}
+    path: /api/room/{id}
     controller: 'App\Controller\CheckedRoomController::index'
     methods: GET
 default:
